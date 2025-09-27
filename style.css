@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .homepage {
+    background-color: #808080;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 4px #000;
+  }
+  
+  .homepage h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .homepage p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .homepage .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .homepage .buttons a {
+    padding: 12px 24px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  .homepage .buttons a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 12px 20px;
+  }
+  
+  .navbar a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .navbar a:hover {
+    color: #ddd;
+  }
+  
+  .nav-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .brand {
+    color: #f5f5f5;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .nav-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-link {
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .btn-logout {
+    background-color: #2E86C1;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-logout:hover {
+    background-color: #1B4F72;
+  }
+  
+  .container-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    width: 300px;
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  form button {
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #333;
+  }
+  
+  .properties-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .property-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .property-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .property-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .property-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .property-card .rent {
+    font-weight: bold;
+    color: #2E86C1;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #f5f5f5;
+    margin-top: 40px;
+  }
+  
